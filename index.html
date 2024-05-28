@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Digidex</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="logo">
+            <img src="img/logo.png" alt="Imagem da logo do digimon." style="width: 500px;">
+        </div>
+        <div class="row mb-4">
+            <div class="col-12 mx-auto">
+                <div class="input-group">
+                    <input type="text" id="search-input" class="form-control search-input" placeholder="Buscar">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4" id="filter-container">
+            <!-- Botões de filtro serão inseridos aqui dinamicamente -->
+        </div>
+        <div class="row justify-content-center" id="card-container">
+            <!-- Os cards serão inseridos aqui dinamicamente -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalDigimon" tabindex="-1" role="dialog" aria-labelledby="modalDigimonTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                </div>
+                <div class="modal-img">
+                    <img src="" alt="">
+                </div>
+                <div class="modal-body">
+                    <p class="modal-level"></p>
+                    <p><strong>Descrição:</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

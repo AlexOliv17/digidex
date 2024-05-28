@@ -1,0 +1,130 @@
+.btn-filter {
+   margin-right: 5px;
+   margin-bottom: 5px;
+   background-color: #acb6c1;
+   color: white;
+   border: none;
+   border-radius: 15px;
+}
+
+.btn-filter.active {
+   background-color: #007bff;
+   color: white;
+}
+
+.btn-secondary {
+   background-color: #0069d9;
+}
+
+.card-title {
+   text-align: center;
+   color: white;
+}
+
+body {
+   background: linear-gradient(to bottom, #0b497c, #f3e076);
+   min-height: 100vh;
+   margin: 0;
+}
+
+.search-input {
+   background-color: #acb6c1;
+   color: white;
+   border: none;
+   border-radius: 15px;
+}
+
+.search-input::placeholder {
+   color: white;
+   opacity: 0.7;
+}
+
+.card {
+   background-color: #b2bfcd;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+   display: flex;
+   justify-content: center;
+}
+
+.input-group-text {
+   background-color: #acb6c1;
+   border: none;
+   color: white;
+}
+
+[class*="col-"] {
+   padding-left: 0 !important;
+}
+
+.card-img-top {
+   border: none;
+   border-radius: 20px;
+}
+
+.logo {
+   max-width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 40px;
+}
+
+.digimon-details {
+   padding-left: 12px;
+   padding-top: 12px;
+}
+
+.modal-content {
+   border-radius: 20px;
+   background-color: #d5d2d2;
+}
+
+.modal-body {
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-left: 10px;
+   padding-top: 5px;
+   background-color: rgb(229, 229, 229);
+   position: relative;
+   z-index: 1;
+}
+
+.modal-img {
+   text-align: center;
+   width: 100%;
+   position: relative;
+   top: 20px;
+   z-index: 2;
+}
+
+.modal-img img {
+   width: 170px;
+   border-radius: 20px;
+   display: block;
+   margin: 0 auto;
+   box-shadow: 5px 5px #2929296b;
+}
+
+.modal-header {
+   color: #007bff;
+   border-radius: 10px;
+   border-bottom: 0px;
+   padding-bottom: 0px;
+}
+
+.modal-footer {
+   border-radius: 10px;
+   border-top: 0px;
+}
+
+.modal-level {
+   margin-top: 1.5rem;
+   text-align: center;
+   font-style: italic;
+   font-weight: 500;
+}
